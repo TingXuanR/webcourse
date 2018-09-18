@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单练习</title>
+    <style>
+        p {
+            font-size: 25px;
+            text-align: center;
+            background-color: snow;
+        }
+
+        span {
+            color: red;
+            size: 5px;
+        }
+
+        table {
+            width: 60%;
+            height: 800px;
+            align-self: center;
+            border: 2px solid dodgerblue;
+        }
+        #pp{
+            width: 100px;
+            height: 100px;
+            background-color: dodgerblue;
+            text-align: center;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<form method="post">
+    <table align="center" border="2px">
+
+        <tr>
+            <td colspan="2" width="300px">
+                <p>用户反馈表</p>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                您的名字：
+            </th>
+            <td>
+                <input type="text" name="username" required="required"><span>*</span>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                您的Gender：
+            </th>
+            <td>
+                <label>Man
+                    <input type="radio" name="gender" value="man" required="required"/>
+                </label>
+                <label>Woman
+                    <input type="radio" name="gender" value="woman" required="required"/>
+                </label>
+                <span>*</span>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                您的年龄：
+            </th>
+            <td>
+                <input type="number" name="age" min="5" max="200" required="required">
+                <span>*</span>
+            </td>
+        </tr>
+        <tr>
+            <th>联系电话：
+            </th>
+            <td>
+                <input type="tel" name="tele">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                电子邮箱：
+            </th>
+            <td>
+                <input type="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <th>您的省份:</th>
+            <td>
+                <select name="province" required="required">
+                    <option value="1">北京市（京）</option>
+                    <option value="2">天津市（津）</option>
+                    <option value="3">上海市（沪）</option>
+                    <option value="4">重庆市（渝）</option>
+                    <option value="5">河北省（冀）</option>
+                    <option value="6">河南省（豫）</option>
+                    <option value="7">湖南省（湘）</option>
+                    <option value="8">湖北省（鄂）</option>
+                    <option value="9">青海省（青）</option>
+                    <option value="10">甘肃省（甘）</option>
+                    <option value="11">四川省（川）</option>
+                    <option value="12">吉林省（吉）</option>
+                    <option value="13">辽宁省（辽）</option>
+                    <option value="14">黑龙江省（黑）</option>
+                    <option value="15">陕西省（陕）</option>
+                    <option value="16">山西省（晋）</option>
+                    <option value="17">山东省（鲁）</option>
+                    <option value="18">安微省（皖）</option>
+                    <option value="19">江苏省（苏）</option>
+                    <option value="20">浙江省（浙）</option>
+                    <option value="21">江西省（赣）</option>
+                    <option value="22">福建省（闽）</option>
+                    <option value="23">广东省（粤）</option>
+                    <option value="24">广西省（桂）</option>
+                    <option value="25">贵州省（贵）</option>
+                    <option value="26">云南（云）</option>
+                    <option value="27">宁夏（宁）</option>
+                    <option value="28">内蒙古（蒙）</option>
+                    <option value="29">西藏（藏）</option>
+                    <option value="30">新疆（新）</option>
+                    <option value="31">台湾省（台）</option>
+                    <option value="32">海南省（琼）</option>
+                    <option value="33">香港</option>
+                    <option value="34">澳门</option>
+                </select>
+                <span>*</span>
+            </td>
+        </tr>
+        <tr>
+            <th>详细地址:</th>
+            <td>
+                <input type="text" name="addresss">
+            </td>
+        </tr>
+        <tr>
+            <th align="center">您对网站哪些方面感到满意</th>
+            <td><input type="checkbox" name="动画">动画
+                <input type="checkbox" name="音乐">音乐
+                <input type="checkbox" name="视频">视频
+                <input type="checkbox" name="布局">布局
+                <input type="checkbox" name="字体">字体
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">请输入您对网站的建议:</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea name="advice" cols="110" rows="8"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="image" name="submit" src="确定.gif">
+            </td>
+            <td align="center">
+
+                <input type="reset" name="reset">
+            </td>
+        </tr>
+    </table>
+
+</form>
+<div id="pp">Clear</div>
+</body>
+</html>
+
+<!--<form>-->
+<!--登陆fd-->
+<!--<br/>-->
+<!--用户名:<input type="text" name="nam" required="required"><br>-->
+<!--密  码:<input type="password" name="password" required="required">-->
+<!--<br/>-->
+<!--<input type="submit" value="登陆">-->
+<!--</form>-->

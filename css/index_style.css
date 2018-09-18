@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    font-family: "Arial Narrow";
+}
+body{
+    background-image: url("../img/花草.jpg");
+    background-size: cover;
+}
+
+
+.title{
+    height: 50px;
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+p{
+    text-align: center;
+    color: coral;
+}
+
+.menu{
+    width:400px;
+    height: 800px;
+    font-size: 21px;
+    float: left; // 使导航栏中的字体总是靠左
+}
+
+li{
+    list-style-type: none;
+    clear: left; // 防止其水平分布
+    cursor: outline;
+    margin: 15px;
+    text-indent: 30px;
+}
+
+a:link,a:hover{
+    color: darkcyan;
+    text-decoration: none;
+}
+a:active,a:visited{
+    color: darkcyan;
+    display: block;
+}
+
+
+

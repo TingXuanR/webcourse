@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: auto;
+    font-family: "Bookman Old Style";
+    font-size: 15px;
+    color: blue;
+    height: 50px;
+    line-height: 50px;
+    background-color: antiquewhite;
+}
+
+#head {
+    float: left;
+    font-family: Consolas;
+    font-size: 21px;
+    color: black;
+}
+
+li {
+    display: inline;
+    padding-left: 50px;
+}
+
+p {
+    float: left;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: chartreuse;
+}
+a:visited{color:darkblue}
