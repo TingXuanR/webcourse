@@ -1,0 +1,18 @@
+.div2{
+    text-align: center;
+    column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 10px;
+    -webkit-column-gap: 10px;
+    column-rule: 5px outset #00FF00;
+    -webkit-column-rule: 5px outset #00FF00;
+}
+.div3 img{
+    text-align: center;
+    margin-top: 50px;
+    transition: 2s;
+}
+.div3 img:hover{
+    width: 364px;
+    transform: rotate(360deg);
+}
