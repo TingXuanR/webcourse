@@ -16,3 +16,7 @@
     width: 364px;
     transform: rotate(360deg);
 }
+.div1{
+   display: inline;
+    margin: 10px 120px;
+}
