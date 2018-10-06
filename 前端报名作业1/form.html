@@ -1,0 +1,79 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form</title>
+	<style>
+		form{
+			height: 240px;
+			width: 400px;
+			margin: -200px 0 0 -240px;
+			padding: 20px;
+			top:50%;  
+			left:50%;
+			position: absolute;
+			z-index: 0;
+			background-color: #eee;
+			
+			background-image: linear-gradient(top, #fff, #eee);
+			border-radius: 5px;
+			box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, .2), 0 3px 0 #fff, 0 4px 0 rgba(0,0,0, .2);
+			
+		}	
+		
+		form:before{
+			content: '';
+			position: absolute;
+			z-index: -1;
+			border: 1px dashed #ccc;
+			top: 5px;
+			bottom: 5px;left: 5px;
+			right: 5px;
+			box-shadow: 0 0 0 1px #fff;
+			
+		}
+		
+		input{
+			float: left;
+			padding: 15px 15px 15px 45px;
+			margin: 0 0 10px 0;
+			width: 353px;
+			border: 1px solid #CCC;
+			background: #F1F1F1;
+			font-size: 14px;
+			border-radius: 5px;
+			
+		}
+		input:focus{
+			
+		}
+		#submit{
+			background: red;
+			border-width: 2px;
+			border-style: solid;
+			height: 35px;
+			width: 353px;
+			padding: 0;
+			cursor: pointer;
+			font: bold 13px Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			color:aliceblue;
+			margin: 5px auto;
+		}
+		.name{
+			background: url(头像icon.png) 10px 11px no-repeat;
+		}
+		.pwd{
+			background: url(小锁icon.png) 10px 11px no-repeat;
+		}
+		
+	</style>
+</head>
+	<body>
+	<form>
+		<input type="text" tabinde="2" class="name" placeholder="xuehao" autofocus required>
+		<input type="password" tabinde="3" class="pwd" placeholder="mima" autofocus required>
+		<input type="submit" tabindex="4" id="submit" value="zhuche"> 
+	</form>
+<body>
+</body>
+</html>

@@ -1,0 +1,101 @@
+
+.div_head{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #F1F1F1;
+}
+.p0{
+    text-align: center;
+    line-height: 70px;
+}
+a{
+    text-decoration: none;
+}
+
+.div_content{
+	width: 1100px;
+	height: 400px;
+	margin: 0 auto;
+	/* position: relative; */
+	/* float: left; */
+}
+
+.div_pic{
+	float: left;
+	width: 650px;
+	height:350px;
+	display: inline-block;
+
+}
+.div_form{
+    border-radius: 5px;
+	padding: 10px;
+	margin: 10px 75px;
+	width: 200px;
+	display: inline-block;
+	float: left;
+	border: 2px solid lightgrey;
+    background-color: #F1F1F1;
+	/* position: absolute; */
+
+}
+
+#username,#password{
+    border-radius: 5px;
+	width: 200px;
+	height: 40px;
+	margin: 15px auto;
+}
+#username{
+	background: url("头像icon.png") white no-repeat;
+}
+#password{
+    background: url("小锁icon.png") white no-repeat;
+}
+
+.submit{
+    border-radius: 5px;
+	margin:10px auto;
+    width: 200px;
+    height: 30px;
+    background-color: crimson;
+    font-weight: bold;
+    color: white;
+}
+
+.operator{
+    margin-left: 110px;
+    width: 150px;
+    height: 35px;
+}
+.s0{
+    font-size: 15px;
+    color: red;
+    margin-left: 90px;
+}
+
+.div_text{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #F1F1F1;
+}
+.t1{
+    float: left;
+    margin: 20px 30px;
+}
+.t2{
+    float: left;
+    margin: 20px 30px;
+}
+.t3{
+    float: left;
+    margin: 20px 5px;
+}
+
+p{
+    text-align: center;
+}
+
+
