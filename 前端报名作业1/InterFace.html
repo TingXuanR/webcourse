@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>上网登录窗口</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        window.onload = function () {
+            var sub = document.getElementById("sub");
+            sub.onclick = function () {
+                alert("此功能尚未开放，敬请期待");
+            };
+        }
+    </script>
 </head>
 <body>
 <div class="div_head">
@@ -21,7 +29,7 @@
             </label>
             <input type="text" placeholder="               学号" autofocus="autofocus" required id="username">
             <input type="password" placeholder="              密码" autofocus="autofocus" required id="password">
-            <input type="submit" value="登  录" class="submit">
+            <input type="button" value="登  录" class="submit" id="sub">
         </form>
     </div>
     <div>
