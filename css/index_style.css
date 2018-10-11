@@ -2,8 +2,16 @@
     margin: 0;
     font-family: "Arial Narrow";
 }
+
+@media screen and (min-width: 980px) {
+   body{
+       width: auto;
+   }
+}
+
 body{
-    background-image: url("../img/花草.jpg");
+    /*background-image: url("../img/花草.jpg");*/
+    background: url("../img/花草.jpg") no-repeat fixed;
     background-size: cover;
 }
 
