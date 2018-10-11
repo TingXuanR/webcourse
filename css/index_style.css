@@ -3,7 +3,7 @@
     font-family: "Arial Narrow";
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 640px) {
    body{
        width: auto;
    }
